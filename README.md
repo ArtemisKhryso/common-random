@@ -634,7 +634,7 @@ String csv = DataUtils.generateCsv(fieldList, total);
 //生成SQL之前先要指定表名
 String tableName = "user";
 //生成SQL插入语句
-String sql = DataUtils.generateJson(fieldList, tableName, total);     
+String sql = DataUtils.generateSql(fieldList, tableName, total);     
 ```
 
 ## 感谢 JetBrains 免费的开源授权
